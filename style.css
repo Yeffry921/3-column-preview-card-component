@@ -39,6 +39,7 @@ p {
 .container {
   max-width: 375px;
   margin: 2rem auto;
+  padding: 0 40px;
 }
 .company-container {
   display: flex;
