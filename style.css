@@ -40,16 +40,16 @@ p {
   max-width: 375px;
   margin: 2rem auto;
 }
-.flex-contaier {
+.company-container {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
-.company__section {
-  padding: 40px;
+.company__title h1 {
+  padding: 15px 0;
 }
-
-.company__section > div {
-  margin: 1.2rem;
+.company__info .btn {
+  margin-top: 1rem;
 }
 
 /* Need to check for better way if possible */
@@ -72,3 +72,7 @@ p {
 .bg-dark-cyan {
   background-color: var(--color-dark-cyan);
 }
+.p-20 {
+  padding: 40px;
+}
+
