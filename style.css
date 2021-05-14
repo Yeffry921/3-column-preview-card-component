@@ -64,7 +64,9 @@ p {
 .company__info .btn {
   margin-top: 1rem;
 }
-
+.attribution {
+  margin-top: 2rem;
+}
 /* Need to check for better way if possible */
 .color-orange {
   color: var(--color-orange);
@@ -92,6 +94,7 @@ p {
 @media only screen and (min-width: 760px) {
   .container {
     max-width: 1440px;
+    margin: 12rem auto;
   }
   .company-container {
     flex-direction: row;
